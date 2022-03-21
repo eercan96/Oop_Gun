@@ -46,14 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AtesliSilah.cs" />
+    <Compile Include="Bicak.cs" />
+    <Compile Include="Cephanem.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IAtesli.cs" />
+    <Compile Include="IKesici.cs" />
+    <Compile Include="IYakinlastir.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoketAtar.cs" />
+    <Compile Include="Silah.cs" />
+    <Compile Include="Tabanca.cs" />
+    <Compile Include="Top.cs" />
+    <Compile Include="Tufek.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +90,30 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resimler\ammo.png" />
+    <Content Include="Resimler\KF1500.jpg" />
+    <Content Include="Resimler\Knife.jpg" />
+    <Content Include="Resimler\MachineGun.gif" />
+    <Content Include="Resimler\Pistol.jpg" />
+    <Content Include="Resimler\RPG.jpg" />
+    <Content Include="Resimler\ShotGun.jpg" />
+    <Content Include="Resources\ammo.png" />
+    <Content Include="Sesler\death.wav" />
+    <Content Include="Sesler\GunEmpty.wav" />
+    <Content Include="Sesler\Pompali.wav" />
+    <Content Include="Sesler\PompaliSarjor.wav" />
+    <Content Include="Sesler\scream.wav" />
+    <Content Include="Sesler\SharpenKnife.wav" />
+    <Content Include="Sesler\silah1.wav" />
+    <Content Include="Sesler\Silah2.wav" />
+    <Content Include="Sesler\StabKnife.wav" />
+    <Content Include="Sesler\Tabanca.wav" />
+    <Content Include="Sesler\Taramali.wav" />
+    <Content Include="Sesler\Taramali1.wav" />
+    <Content Include="Sesler\Taramali2.wav" />
+    <Content Include="Sesler\TopAtis.wav" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
